@@ -1,0 +1,21 @@
+.jumbotron{
+    display: flex;
+    justify-content:center;
+        height: 100%;
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)),
+            url("https://cdn.discordapp.com/attachments/1063167759648837675/1063422938642128927/lesvefloppeurspng2.png");
+  
+    /* Centre l'image et la met bien sur tous les écrans */
+    background-position: center;
+    background-size: cover; /*Taille image Hero */
+    font-family: 'VT323', monospace; /* ECRITURE DU TYPE DOS */
+    
+}
+
+.barre{
+        display: flex;
+        justify-content: space-between;
+}

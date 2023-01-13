@@ -1,0 +1,97 @@
+.navbar{
+    background: linear-gradient(to right, #612503, #b0531e, #ffa978);
+}
+
+body{
+    font-family: 'VT323', monospace;
+    background: linear-gradient(to right, #1c2052, #410e6b, #502570);
+    
+}
+
+
+
+.jumbotron{
+    display: flex;
+    justify-content:center;
+        height: auto;
+        min-height: 650px;
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)),
+            url("https://cdn.discordapp.com/attachments/1063167759648837675/1063460005480763392/lesvefloppeurspng3.png");
+  
+    /* Centre l'image et la met bien sur tous les écrans */
+    background-position: top center;
+    background-size: cover; /*Taille image Hero */
+    font-family: 'VT323', monospace; /* ECRITURE DU TYPE DOS */
+
+    
+}
+
+.barre{
+        display: flex;
+        justify-content: space-between;
+}
+
+.centrer {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'VT323', monospace;
+  }
+
+
+  .photo1{
+    background-image: url(https://media.discordapp.net/attachments/1063167759648837675/1063385037644505159/gettyimages-106475037-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: auto;
+    }
+
+    .photo2{
+        background-image: url(https://media.discordapp.net/attachments/1063167759648837675/1063385805831294976/article-2193399-14AEF6CF000005DC-759_634x707.jpg?width=584&height=651);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: auto;
+        }
+
+    .photo3{
+        background-image: url(https://media.discordapp.net/attachments/1063167759648837675/1063385669755482162/nerd_01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: auto;
+        }
+
+    .photo4{
+        background-image: url(https://media.discordapp.net/attachments/1063167759648837675/1063386012144906281/nerd_.jpg?width=461&height=651);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: auto;
+        }
+
+
+
+        h1 {
+            font-family: 'VT323', monospace;
+            margin-top: 0px;
+            margin-bottom: 50px;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 3rem;
+            letter-spacing: 0.15rem;
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow: -4px 4px #ef3550,
+                         -8px 8px #f48fb1,
+                         -12px 12px #7e57c2,
+                         -16px 16px #2196f3,
+                         -20px 20px #26c6da,
+                         -24px 24px #43a047,
+                         -28px 28px #eeff41,
+                         -32px 32px #f9a825,
+                         -36px 36px #ff5722;
+          }
